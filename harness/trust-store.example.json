@@ -1,0 +1,41 @@
+{
+  "repository_id": "SET-YOUR-ORGANISATION/REPOSITORY",
+  "required_roles": {
+    "plan": [
+      "business",
+      "technical",
+      "qa"
+    ],
+    "release": [
+      "technical",
+      "qa",
+      "release"
+    ]
+  },
+  "reviewers": {
+    "alice": {
+      "public_key": "alice.pub",
+      "roles": [
+        "business"
+      ]
+    },
+    "bob": {
+      "public_key": "bob.pub",
+      "roles": [
+        "technical"
+      ]
+    },
+    "carol": {
+      "public_key": "carol.pub",
+      "roles": [
+        "qa"
+      ]
+    },
+    "dana": {
+      "public_key": "dana.pub",
+      "roles": [
+        "release"
+      ]
+    }
+  }
+}

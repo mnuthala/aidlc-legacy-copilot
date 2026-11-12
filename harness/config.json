@@ -1,0 +1,38 @@
+{
+  "repository_id": "SET-YOUR-ORGANISATION/REPOSITORY",
+  "source_roots": [
+    "src",
+    "WebContent",
+    "build.xml"
+  ],
+  "readiness_threshold": 85,
+  "max_repairs_per_failure": 3,
+  "max_repairs_total": 9,
+  "adapters": {
+    "build": {
+      "argv": null,
+      "timeout_seconds": 900,
+      "report_glob": null
+    },
+    "unit": {
+      "argv": null,
+      "timeout_seconds": 900,
+      "report_glob": "reports/**/*.xml"
+    },
+    "functional": {
+      "argv": null,
+      "timeout_seconds": 900,
+      "report_glob": "reports/**/*.xml"
+    },
+    "integration": {
+      "argv": null,
+      "timeout_seconds": 900,
+      "report_glob": "reports/**/*.xml"
+    },
+    "regression": {
+      "argv": null,
+      "timeout_seconds": 900,
+      "report_glob": "reports/**/*.xml"
+    }
+  }
+}

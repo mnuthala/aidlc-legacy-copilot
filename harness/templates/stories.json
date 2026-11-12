@@ -1,0 +1,98 @@
+[
+  {
+    "id": "ST-001",
+    "epic": "EPIC-001",
+    "kind": "user-story",
+    "title": "TODO: Story title",
+    "actor": "TODO: Actor",
+    "capability": "TODO: Capability",
+    "benefit": "TODO: Business value",
+    "scope": "TODO: Included behaviour",
+    "exclusions": "TODO: Exclusions",
+    "requirement_ids": [
+      "REQ-001"
+    ],
+    "acceptance_criteria": [
+      {
+        "id": "AC-001",
+        "given": "TODO: Preconditions",
+        "when": "TODO: Action",
+        "then": "TODO: Observable result"
+      }
+    ],
+    "business_rules": [],
+    "data": [],
+    "nfr_ids": [],
+    "dependencies": [],
+    "assumptions": [],
+    "blocking_questions": [
+      "Clarify BRS before implementation"
+    ],
+    "assessment": {
+      "clarity": {
+        "actor_purpose": {
+          "score": 0,
+          "reason": "TODO: Independent assessment",
+          "evidence": "TODO: Requirement or code reference"
+        },
+        "scope": {
+          "score": 0,
+          "reason": "TODO: Independent assessment",
+          "evidence": "TODO: Requirement or code reference"
+        },
+        "behaviour": {
+          "score": 0,
+          "reason": "TODO: Independent assessment",
+          "evidence": "TODO: Requirement or code reference"
+        },
+        "acceptance_criteria": {
+          "score": 0,
+          "reason": "TODO: Independent assessment",
+          "evidence": "TODO: Requirement or code reference"
+        },
+        "dependencies": {
+          "score": 0,
+          "reason": "TODO: Independent assessment",
+          "evidence": "TODO: Requirement or code reference"
+        }
+      },
+      "quality": {
+        "value": {
+          "score": 0,
+          "reason": "TODO: Independent assessment",
+          "evidence": "TODO: Requirement or code reference"
+        },
+        "completeness": {
+          "score": 0,
+          "reason": "TODO: Independent assessment",
+          "evidence": "TODO: Requirement or code reference"
+        },
+        "testability": {
+          "score": 0,
+          "reason": "TODO: Independent assessment",
+          "evidence": "TODO: Requirement or code reference"
+        },
+        "feasibility": {
+          "score": 0,
+          "reason": "TODO: Independent assessment",
+          "evidence": "TODO: Requirement or code reference"
+        },
+        "consistency": {
+          "score": 0,
+          "reason": "TODO: Independent assessment",
+          "evidence": "TODO: Requirement or code reference"
+        },
+        "traceability": {
+          "score": 0,
+          "reason": "TODO: Independent assessment",
+          "evidence": "TODO: Requirement or code reference"
+        },
+        "size": {
+          "score": 0,
+          "reason": "TODO: Independent assessment",
+          "evidence": "TODO: Requirement or code reference"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+changes/*/runs/
+changes/*/approvals/
+changes/*/approval-request-*.json
+changes/*/evidence.json
+changes/*/quality-report.json
+changes/*/repair-history.json
+*.key
+*.pem

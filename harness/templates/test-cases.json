@@ -1,0 +1,16 @@
+[
+  {
+    "id": "TC-001",
+    "story_ids": [
+      "ST-001"
+    ],
+    "acceptance_criteria_ids": [
+      "AC-001"
+    ],
+    "suite": "unit",
+    "scenario": "TODO: Scenario",
+    "expected": "TODO: Expected result",
+    "fixture": "TODO: Setup and cleanup",
+    "automation_id": "TODO: classname#name"
+  }
+]

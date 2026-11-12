@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$comment": "Interchange shape. Controller additionally validates references, scoring, evidence, completeness and readiness.",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "story_ids",
+      "acceptance_criteria_ids",
+      "suite",
+      "scenario",
+      "expected",
+      "fixture",
+      "automation_id"
+    ],
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "story_ids": {
+        "type": "array"
+      },
+      "acceptance_criteria_ids": {
+        "type": "array"
+      },
+      "suite": {
+        "type": "string",
+        "enum": [
+          "unit",
+          "functional",
+          "integration",
+          "regression"
+        ]
+      },
+      "scenario": {
+        "type": "string"
+      },
+      "expected": {
+        "type": "string"
+      },
+      "fixture": {
+        "type": "string"
+      },
+      "automation_id": {
+        "type": "string"
+      }
+    }
+  }
+}

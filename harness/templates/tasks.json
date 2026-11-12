@@ -1,0 +1,20 @@
+[
+  {
+    "id": "TASK-001",
+    "title": "TODO: Engineering task",
+    "story_ids": [
+      "ST-001"
+    ],
+    "design_refs": [
+      "LLD.md"
+    ],
+    "depends_on": [],
+    "deliverable": "TODO: Concrete output",
+    "done_when": "TODO: Observable completion",
+    "verification": "TODO: Verification command or review",
+    "estimate": {
+      "range": null,
+      "assumptions": []
+    }
+  }
+]
